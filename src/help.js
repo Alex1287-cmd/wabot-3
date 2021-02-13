@@ -34,39 +34,39 @@ const help = (prefix) => {
 ║usage : *${prefix}ep [no] [text]*\nexample : *${prefix}ep 1 YourText*
 ║note : *${prefix}ep list* ( for show all theme )\n
 ║
-║═command : *${prefix}tahta*
+║═>command : *${prefix}tahta*
 ║desc : Harta Tahta .....
 ║usage : *${prefix}tahta [text]*\nexample : *${prefix}tahta YourText*\n
 ║
-║═command : *${prefix}gtts*
+║═>command : *${prefix}gtts*
 ║desc : convert text to speech/audio
 ║usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
 ║
-║═command : *${prefix}loli*
+║═>command : *${prefix}loli*
 ║desc : random loli images
 ║usage : just send the command\n
 ║
-║═command : *${prefix}nsfwloli*
+║═>command : *${prefix}nsfwloli*
 ║desc : random nsfw loli images
 ║usage : just send the command\n
 ║
-║═command : *${prefix}url2img*
+║═>command : *${prefix}url2img*
 ║desc : take web screenshots
 ║usage : *${prefix}url2img [tipe] [url]*\n
 ║
-║═command : *${prefix}simi*
+║═>command : *${prefix}simi*
 ║desc : your message will be replied to by simi
 ║usage : *${prefix}simi yourmessage*\n
 ║
-║═command : *${prefix}ocr*
+║═>command : *${prefix}ocr*
 ║desc : take the text in the picture
 ║usage : reply image, or send image with caption\n
 ║
-║═command : *${prefix}wait*
+║═>command : *${prefix}wait*
 ║desc : search anime with image [ What Anime Is This/That ]
 ║usage : reply image, or send image with caption\n
 ║
-║═command : *${prefix}setprefix*
+║═>command : *${prefix}setprefix*
 ║desc : replace prefix
 ║usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
 ║note : This command can only be used by the bot owner\n
