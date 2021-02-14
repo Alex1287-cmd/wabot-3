@@ -1,8 +1,7 @@
 const help = (prefix) => {
-	return 
-            `> *Sticker Commands* <
-╭───       ❉──────────────────❉
-│═>command : *${prefix}sticker* or *${prefix}stiker*
+	return `> *Sticker Commands* <
+╭───       
+│═>command : *${prefix}sticker* or *$8{prefix}stiker*
 │desc : convert image/gif/video to sticker
 │usage : reply image/gif/video, or send image/gif/video with caption\n
 │
