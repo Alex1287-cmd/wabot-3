@@ -730,7 +730,11 @@ async function starts() {
 					} else {
 						return //console.log(color('[WARN]','red'), 'Unregistered Command from', color(sender.split('@')[0]))
 					}
-                           }
+                           }case '#dadu':
+            if (!isGroupMsg) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan dalam group!', id)
+            const dice = Math.floor(Math.random() * 6) + 1
+            await tobz.sendStickerfromUrl(from, 'https://www.random.org/dice/dice' + dice + '.png', { method: 'get' })
+            break
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
 		}
